@@ -1,0 +1,6 @@
+#ifndef VIRTUALMEMFRAMEWORKC_PAGINGTESTS_H
+#define VIRTUALMEMFRAMEWORKC_PAGINGTESTS_H
+
+void testDataPagedOutCorrectly();
+void testDataPagedInCorrectly();
+#endif //VIRTUALMEMFRAMEWORKC_PAGINGTESTS_H

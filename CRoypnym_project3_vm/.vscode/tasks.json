@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "windows": {
+      "options": {
+        "shell": {
+          "executable": "bash.exe",
+          "args": ["-c"]
+        }
+      }
+    },
+    "tasks": [
+      {
+        "label": "Cmake",
+        "type": "shell",
+        "command": "cmake",
+        "args": [
+          "."
+        ],
+        "options": {
+          "env": {
+            "UNITY_SRC_DIR": "/usr/local"
+          }
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "make",
+        "type": "shell",
+        "command": "make",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }

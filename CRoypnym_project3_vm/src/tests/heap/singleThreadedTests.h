@@ -1,0 +1,11 @@
+#ifndef VIRTUALMEMFRAMEWORKC_SINGLETHREADEDTESTS_H
+#define VIRTUALMEMFRAMEWORKC_SINGLETHREADEDTESTS_H
+
+void testSingleThreadedWriteHeapAndReadFullPage();
+void testSingleThreadedWriteHeapAndReadAcrossTwoPages();
+void testSingleThreadedWriteHeapAndReadMiddleOfPage();
+void testSingleThreadedWriteHeapAndReadPartial();
+void testSingleThreadedWriteHeapBeyondEndOfPage();
+void testSingleThreadedReadAllHeapMem();
+
+#endif //VIRTUALMEMFRAMEWORKC_SINGLETHREADEDTESTS_H

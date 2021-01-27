@@ -1,0 +1,9 @@
+#ifndef VIRTUALMEMFRAMEWORKC_MULTITHREADEDSTACKTESTS_H
+#define VIRTUALMEMFRAMEWORKC_MULTITHREADEDSTACKTESTS_H
+
+void testMultiThreadedWriteStackAndReadFullPage();
+void testMultiThreadedWriteStackAndReadAcrossTwoPages();
+void testMultiThreadedWriteStackAndReadMiddleOfPage();
+void testMultiThreadedWriteStackAndReadPartial();
+void testMultiThreadedReadAllStackMemory();
+#endif

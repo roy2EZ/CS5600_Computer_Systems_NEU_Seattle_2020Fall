@@ -1,0 +1,9 @@
+#ifndef VIRTUALMEMFRAMEWORKC_MULTITHREADEDHEAPTESTS_H
+#define VIRTUALMEMFRAMEWORKC_MULTITHREADEDHEAPTESTS_H
+
+void testMultiThreadedWriteHeapAndReadFullPage();
+void testMultiThreadedWriteHeapAndReadAcrossTwoPages();
+void testMultiThreadedWriteHeapAndReadMiddleOfPage();
+void testMultiThreadedWriteHeapAndReadPartial();
+void testMultiThreadedReadAllHeapMemory();
+#endif
