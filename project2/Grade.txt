@@ -1,0 +1,4 @@
+40/40 - functional tests passing
+25/25 - correct code
+25/25 - QUESTIONS.md
+10/10 - consistent code style

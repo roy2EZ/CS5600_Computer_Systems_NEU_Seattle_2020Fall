@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="os_simulator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\googletest\;CMake Files\ext\googletest\src\;CMake Files\ext\googletest\src\googlemock\;CMake Files\ext\googletest\src\googlemock\cmake\;CMake Files\ext\googletest\src\googletest\;CMake Files\ext\googletest\src\googletest\cmake\;CMake Files\os_simulator\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="os_simulator">
+				<Option output="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/libos_simulator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework"/>
+					<Add directory="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/includes"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 os_simulator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="os_simulator/fast">
+				<Option output="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/libos_simulator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework"/>
+					<Add directory="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/includes"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 os_simulator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/io/InternalLogger.cpp">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/io/InternalLogger.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/structures/ListManager.cpp">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/structures/ListManager.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/structures/MapManager.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/structures/StructureManager.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/threading/InternalThread.cpp">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/threading/InternalThread.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/threading/LockManager.cpp">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/threading/LockManager.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/threading/ThreadManager.cpp">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/framework/threading/ThreadManager.h">
+			<Option target="os_simulator"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/CMakeLists.txt.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\googletest\src\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googletest\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/ext/googletest/src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\ext\googletest\src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roychen/cs5600/hw2/CRoypnym_project2_threading/os_simulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\os_simulator\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
