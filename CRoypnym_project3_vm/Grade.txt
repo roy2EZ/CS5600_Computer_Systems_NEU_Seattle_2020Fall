@@ -1,0 +1,11 @@
+45/50 - Tests Passing
+All stack tests of a partial page are failing most likely due to the fact that stack address are treated differently
+than heap, however this is something I addressed you had to deal with in class.
+20/25 - Code
+A single lock for the entire VM is not
+appropriate for this assignment. Yes we are simulating and I gave some leeway but you would never use a single lock in a
+real system.
+25/25 - Questions.md
+
+90/100
+
