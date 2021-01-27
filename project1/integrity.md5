@@ -1,0 +1,7 @@
+95abd2b95e4db3f68fd087d6d5eb14ac  answer/answer.h
+2b82a184a9a84c6a9b7e97682ca60073  lib/ELFTest
+b055db75317c36db04b62a349a350fc4  lib/libELFReader.a
+9a83db66324ca52dbd4715109e2d08b3  lib/libgcc_s.so.1
+d9693f970d44d061ac12e68c8e7b27d4  src/elf_common_cpp.h
+277aaa1a87bc13561ac193d04af0c0e3  src/main.cpp
+b23c37cd3322918c13b1a8c133fd6350  evaluate.sh

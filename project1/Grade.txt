@@ -1,0 +1,6 @@
+50/50 - functional tests passing
+20/20 - no memory leaks during testing
+20/20 - documentation quality
+10/10 - consistent code style
+
+100/100
